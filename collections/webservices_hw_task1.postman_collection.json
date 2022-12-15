@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "3c6a9bda-5064-4f19-a634-47b371b88396",
+		"name": "webservices_hw_task1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21443364"
+	},
+	"item": [
+		{
+			"name": "task1_ws1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":2}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5011/user",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5011",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "task1_ws2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"type\": \"padawan\",\r\n \"spec\": \"QA\",\r\n \"ex\": \"1\",\r\n \"current_user\": {\"uid\": 2, \"uip:\": \"54.86.50.139\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://23.88.52.139:5012/users_team",
+					"protocol": "http",
+					"host": [
+						"23",
+						"88",
+						"52",
+						"139"
+					],
+					"port": "5012",
+					"path": [
+						"users_team"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
