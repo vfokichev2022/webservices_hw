@@ -1,0 +1,23 @@
+{
+    "current_user": {
+        "uid": 2,
+        "uip:": "54.86.50.139"
+    },
+    "ex": "1",
+    "spec": "QA",
+    "type": "padawan",
+    "user_divices_data": {
+        "comp": {
+            "model": "Macbook",
+            "monitor_diagonal": 16,
+            "ram": 32,
+            "resolution": [
+                "Liquid Retina XDR",
+                "3456x2234"
+            ],
+            "ssd": 1000,
+            "year": 2021
+        },
+        "mobile": {}
+    }
+}
